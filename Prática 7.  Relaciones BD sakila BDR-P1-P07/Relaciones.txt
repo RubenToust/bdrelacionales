@@ -1,0 +1,47 @@
+                             -###Relaciones###-
+
+            TABLA                        //                 RELACIÓN
+ 
+*actor ---> film_actor ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A UNO)
+
+*address ---> city ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN UNO A UNO)
+
+*address ---> staff ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN UNO A MUCHOS)
+
+*address ---> customer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN UNO A MUCHOS)
+
+*address ---> store ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN UNO A UNO)
+
+*category ---> film_category ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A UNO)
+
+*city ---> country ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN UNO A UNO)
+
+*customer ---> store ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A UNO)
+
+*customer ---> payment ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A MUCHOS)
+
+*customer ---> rental ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A MUCHOS)
+
+*film ---> language ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN UNO A MUCHOS)
+
+*film ---> film_actor ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN UNO A UNO)
+
+*film ---> film_category ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN UNO A MUCHOS)
+
+*film ---> inventory ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN UNO A MUCHOS)
+
+*film_text ---> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(NO HAY RELACIÓN)
+
+*inventory ---> store ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A UNO)
+
+*inventory ---> rental ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A MUCHOS)
+
+*payment ---> rental ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A MUCHOS)
+
+*payment ---> staff ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A MUCHOS)
+
+*rental ---> staff ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A MUCHOS)
+
+*staff ---> store ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(RELACIÓN MUCHOS A UNO)
+
+
